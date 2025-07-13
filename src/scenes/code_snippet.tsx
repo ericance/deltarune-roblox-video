@@ -1,4 +1,4 @@
-import {makeScene2D, Code, Circle} from '@motion-canvas/2d';
+import {makeScene2D, Code, } from '@motion-canvas/2d';
 import { all, createRef, waitFor } from '@motion-canvas/core';
 import { ShikiHighlighter } from '../shiki';
 
