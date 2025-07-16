@@ -5,7 +5,7 @@ import radius from "../audio/radius.mp3"
 
 export default makeProject({
   scenes: [
-    // code_snippet,
+    code_snippet,
     radius_visual
   ],
   audio: radius,
