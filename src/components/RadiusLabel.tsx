@@ -66,7 +66,7 @@ export class RadiusLabel extends Node {
 						Vector2.zero,
 						() => Vector2.right.scale(0)
 					]}
-					lineDash={[20, 20]}
+					// lineDash={[20, 20]}
 					lineWidth={5}
 					stroke={'#fff'}
 				/>
@@ -101,4 +101,5 @@ export class RadiusLabel extends Node {
 			this.line().points([0, 0], layoutStartTime).to([Vector2.zero, () => lineSize], lineTime),
 		)
 	}
+	
 }
